@@ -21,7 +21,11 @@ import org.apache.http.params.HttpParams;
 import org.apache.http.params.HttpProtocolParams;
 import org.apache.http.util.EntityUtils;
 
-
+/**
+ * httpclient 工具类（使用jar包：httpclient-4.2.5.jar httpcore-4.2.4.jar）
+ * @author shy
+ *
+ */
 public class WebClient {
 	
 	private static HttpClient mHttpClient = null;
